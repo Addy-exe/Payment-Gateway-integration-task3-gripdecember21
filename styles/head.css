@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Saira:wght@500&display=swap');
+.header{
+    width: 60%; 
+    height: 30rem;
+    /* margin: auto; */
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 4;
+}
+
+#title{
+    color: white;
+    font-size: 5rem;
+    position: relative;
+    top: 122px;
+    /* font-family: 'Marck Script', cursive; */
+    font-family: 'Saira', sans-serif;
+}
+
+#subtitle{
+    color: #efc940;
+    font-size: 5rem;
+    position: relative;
+    top: 112px;
+    font-family: 'Marck Script', cursive;
+}
+
+#donate-form{
+    z-index: 999;
+    position: relative;
+    top: 112px;
+}
+
+@media screen and (max-width:620px){
+    .header{
+        height: 36rem;
+    }
+    #title{
+        font-size: 3rem;
+    }
+    #subtitle{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:620px) and (max-width: 1024px){
+    .header{
+        height: 34rem;
+    }
+    #title{
+        font-size: 4rem;
+    }
+    #subtitle{
+        font-size: 4rem;
+    }  
+}

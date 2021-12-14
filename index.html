@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/head.css">
+    <link rel="stylesheet" href="./styles/about.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- navigation section -->
+        
+        <nav>
+            <div class="logo">
+                <img src="/assets/helping-hand.svg">
+                <h1>Helping Hands</h1>
+            </div>
+            <ul class="navlist">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <!-- <li>
+                    <button id="donate"></button>
+                </li> -->
+            </ul>
+            <div class="burger">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </nav>
+        <div class="overlay"></div>
+        
+        <div id="home" class="header">
+            <h1 id="title">We all People in need </h1>
+            <h2 id="subtitle">around the world.</h2>
+            <form id="donate-form">
+                <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_ITNcODwjwoyI57" async></script> 
+            </form>
+        </div>
+        
+    </div>
+
+    <div id="about">
+       <div class="content">
+        <h2 id="about-title">About Us</h2>
+        <p id="about-para">We give children in poverty the tools they need to create brighter
+        futures for themselves and their communities. With the support of our donors and sponsors,
+        children and youth gain the skills and confidence they need to create promising futures 
+        free from poverty</p>
+       </div>
+       <div class="overlay"></div>
+    </div>
+
+    <script src="./scripts/navhandler.js"></script>
+</body>
+</html>
+
